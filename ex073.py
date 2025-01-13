@@ -1,0 +1,5 @@
+lista = ('botafogo', 'palmeiras', 'flamengo', 'fortaleza', 'internacional', 'são paulo', 'corintians', 'bahia', 'cruzeiro', 'vasco da gama', 'ec vitoria', ' atletico mg', 'fluminense', 'gremio', 'juventudo', 'bragentino', 'athletico pr', 'criciuma', 'atletico go', 'cuiaba')
+print(f'Os 5 primeiros colocados são: {lista[: 5]}')
+print(f'Os ultimos 5 colocados são {lista[-5:]}')
+print(f'os times em ordem alfabetica é {sorted(lista)}')
+print(f'O fluminense esta na posição {lista.index('fluminense')}')
